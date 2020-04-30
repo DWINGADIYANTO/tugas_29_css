@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="Semantic/dist/semantic.min.css">
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+    <script src="semantic/dist/semantic.min.js"></script>
+    <title>Tugas CSS - Niomic</title>
+  </head>
+  <style type="text/css">
+  body{
+    background: #D8BFD8;
+  }
+
+  .page-login {
+  width: 700px;
+  position: absolute;
+  top: 20%;
+  left: 20%
+  }
+
+  </style>
+  <body>
+    <div class="page-login">
+  <div class="ui centered grid container">
+    <div class="nine wide column">
+      <h2 class="ui center aligned header">
+        <img src="img/niomic.png" width="50px" height="50px">
+        <div class="content">
+          <font color="#00FFFF">Daftar Akun Niomic</font>
+        </div>
+    </h2>
+      <div class="ui fluid card">
+        <div class="content">
+        <form class="ui form" >
+          <div class="field">
+            <div class="ui icon field">
+              <i class="user icon"></i>
+              <input type="text" name="depan" placeholder="Nama Depan" />
+            </div>
+          </div>
+          <div class="field">
+            <div class="ui icon field">
+              <i class="user icon"></i>
+              <input type="text" name="belakang" placeholder="Nama Belakang">
+            </div>
+          </div>
+          <div class="field">
+            <div class="ui icon field">
+              <i class="user icon"></i>
+              <input type="number" name="number" placeholder="No. Telp/HP">
+            </div>
+          </div>
+          <div class="field">
+            <div class="ui icon field">
+              <i class="user icon"></i>
+              <input type="email" name="email" placeholder="Alamat Email">
+            </div>
+          </div>
+          <div class="field">
+            <div class="ui icon field">
+              <i class="user icon"></i>
+              <input type="password" name="pass" placeholder="Password">
+            </div>
+          </div>
+          <button class="fluid ui button labeled icon button" type="submit">
+          <i class="unlock alternate icon"></i>
+          <font color="white">Login</font>
+          </button>
+        </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </body>
+</html>
